@@ -11,7 +11,7 @@ public class Test {
         khachHang1.setDiachi(diachi1);
         TaiKhoan taikhoan1 = new TaiKhoan(111,khachHang1,10000000);
         System.out.println(taikhoan1.toString());
-        System.out.println("Mời nhập số tiền gửi: ");
+        System.out.println("Nhập số tiền gửi: ");
         taikhoan1.goiTien(sc.nextDouble());
         System.out.println(taikhoan1.toString());
         System.out.println("Mời Nhập số tiền rút");
